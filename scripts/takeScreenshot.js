@@ -4,7 +4,7 @@ const term = require('terminal-kit').terminal;
 /**
  * Create a webpage screenshot
  */
-async function takeScreenshot(url) {
+module.exports = async url => {
     term.clear();
     term(`Generating screenshot for ${url}, wait please...\n`);
 
@@ -40,6 +40,4 @@ async function takeScreenshot(url) {
                 '\nPress ctrl + c to exit\n'
         );
     }
-}
-
-module.exports = takeScreenshot;
+};

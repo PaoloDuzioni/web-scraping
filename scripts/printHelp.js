@@ -3,7 +3,7 @@ const term = require('terminal-kit').terminal;
 /**
  * Help instructions
  */
-function printHelp() {
+module.exports = () => {
     term.green(
         'Welcome to scraper, here follows a list of all the possible commands:\n\n'
     );
@@ -17,6 +17,4 @@ function printHelp() {
     term('node index.js');
     term.cyan(' screenshot ');
     term.magenta('https://yoursite.com\n');
-}
-
-module.exports = printHelp;
+};
