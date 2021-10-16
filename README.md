@@ -1,9 +1,11 @@
 # Web Scraper
 
+First part of web scraping with puppeteer.js
+
 ## Installation
 
-`npm install`
+Install dependencies: `npm install`
 
 ## Show all commands
 
-`node index.js help`
+On the project root folder run: `node index.js help`
