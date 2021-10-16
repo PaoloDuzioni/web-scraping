@@ -1,0 +1,16 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hahaha, you really wanna test me out?"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^10.4.0",
+    "terminal-kit": "^2.1.8"
+  }
+}
